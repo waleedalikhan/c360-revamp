@@ -7,14 +7,17 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"
     />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.3.1/swiper-bundle.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=EB+Garamond:wght@400;500;600;700;800&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Home</title>
   </head>
 
@@ -78,38 +81,73 @@
       class="bg-light-lighter-gray lg:h-[161px] flex items-center mb-[26px] py-6"
     >
       <div class="xl:container mx-auto md:px-6 px-4">
-        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[53px]">
-          <div class="flex items-center space-x-6">
-            <div class="xl:w-[118px] xl:h-[118px] w-[90px] h-[90px]">
-              <img src="./assets/img/headline-imgs/headline-1.png" alt="" />
+        <div class="swiper headline-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide flex items-center space-x-6">
+              <div class="xl:w-[118px] xl:h-[118px] w-[90px] h-[90px]">
+                <img src="./assets/img/headline-imgs/headline-1.png" alt="" />
+              </div>
+              <div class="w-[227px]">
+                <p class="text-xl font-extrabold">Monreal propone</p>
+                <p class="text-xl font-medium">
+                  permisos con gocede sueldopara estudios de cáncer
+                </p>
+              </div>
             </div>
-            <div class="w-[227px]">
-              <p class="text-xl font-extrabold">Monreal propone</p>
-              <p class="text-xl font-medium">
-                permisos con gocede sueldopara estudios de cáncer
-              </p>
+            <div class="swiper-slide flex items-center space-x-6">
+              <div class="xl:w-[118px] xl:h-[118px] w-[90px] h-[90px]">
+                <img src="./assets/img/headline-imgs/headline-2.png" alt="" />
+              </div>
+              <div class="w-[227px]">
+                <p class="text-xl font-extrabold">Así fortalece</p>
+                <p class="text-xl font-medium">
+                  la academiaa la medicina privada en Quintana Roo
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="flex items-center space-x-6">
-            <div class="xl:w-[118px] xl:h-[118px] w-[90px] h-[90px]">
-              <img src="./assets/img/headline-imgs/headline-2.png" alt="" />
+            <div class="swiper-slide flex items-center space-x-6">
+              <div class="xl:w-[118px] xl:h-[118px] w-[90px] h-[90px]">
+                <img src="./assets/img/headline-imgs/headline-3.png" alt="" />
+              </div>
+              <div class="w-[227px]">
+                <p class="text-xl font-extrabold">Socios del T-MEC</p>
+                <p class="text-xl font-medium">
+                  ven lento el avance de la justicia laboral en México
+                </p>
+              </div>
             </div>
-            <div class="w-[227px]">
-              <p class="text-xl font-extrabold">Así fortalece</p>
-              <p class="text-xl font-medium">
-                la academiaa la medicina privada en Quintana Roo
-              </p>
+            <div class="swiper-slide flex items-center space-x-6">
+              <div class="xl:w-[118px] xl:h-[118px] w-[90px] h-[90px]">
+                <img src="./assets/img/headline-imgs/headline-1.png" alt="" />
+              </div>
+              <div class="w-[227px]">
+                <p class="text-xl font-extrabold">Monreal propone</p>
+                <p class="text-xl font-medium">
+                  permisos con gocede sueldopara estudios de cáncer
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="flex items-center space-x-6">
-            <div class="xl:w-[118px] xl:h-[118px] w-[90px] h-[90px]">
-              <img src="./assets/img/headline-imgs/headline-3.png" alt="" />
+            <div class="swiper-slide flex items-center space-x-6">
+              <div class="xl:w-[118px] xl:h-[118px] w-[90px] h-[90px]">
+                <img src="./assets/img/headline-imgs/headline-2.png" alt="" />
+              </div>
+              <div class="w-[227px]">
+                <p class="text-xl font-extrabold">Así fortalece</p>
+                <p class="text-xl font-medium">
+                  la academiaa la medicina privada en Quintana Roo
+                </p>
+              </div>
             </div>
-            <div class="w-[227px]">
-              <p class="text-xl font-extrabold">Socios del T-MEC</p>
-              <p class="text-xl font-medium">
-                ven lento el avance de la justicia laboral en México
-              </p>
+            <div class="swiper-slide flex items-center space-x-6">
+              <div class="xl:w-[118px] xl:h-[118px] w-[90px] h-[90px]">
+                <img src="./assets/img/headline-imgs/headline-3.png" alt="" />
+              </div>
+              <div class="w-[227px]">
+                <p class="text-xl font-extrabold">Socios del T-MEC</p>
+                <p class="text-xl font-medium">
+                  ven lento el avance de la justicia laboral en México
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -121,7 +159,7 @@
     <section>
       <div class="xl:container mx-auto 2xl:px-0 md:px-6 px-4">
         <div
-          class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-y-0 gap-y-10"
+          class="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 xl:gap-y-0 gap-y-10"
         >
           <!-- Main news left -->
           <div
@@ -177,7 +215,7 @@
 
           <!-- Main news center -->
           <div
-            class="lg:col-span-2 md:col-span-4 lg:px-5 lg:-order-none order-last"
+            class="xl:col-span-2 md:col-span-4 lg:px-5 xl:-order-none order-first"
           >
             <div class="flex flex-wrap">
               <div class="w-full">
@@ -368,24 +406,30 @@
     <!-- News and Ad section ends -->
 
     <!-- Trends section -->
-    <section>
+    <section class="md:mb-[79px] mb-10">
       <div
-        class="xl:container mx-auto 2xl:px-0 md:px-6 px-4 pt-[66px] mt-[31px] border-t border-t-black"
+        class="xl:container mx-auto 2xl:px-0 md:px-6 px-4 pt-[66px] mt-[31px] border-t border-t-black md:pb-[70px] pb-10 border-b-2 border-b-black"
       >
-        <div class="flex flex-warp">
-          <div class="w-full flex items-center flex-wrap lg:space-x-[53px]">
-            <div class="pr-[44px] border-r-[7px] border-r-[#7878e8]">
+        <div class="flex flex-wrap">
+          <div
+            class="w-full flex items-center flex-wrap xl:space-x-[53px] mb-[43px]"
+          >
+            <div class="lg:pr-[44px] lg:border-r-[7px] lg:border-r-[#7878e8]">
               <h1
                 class="text-primary font-alef font-bold text-[40px] uppercase leading-none"
               >
                 trends
               </h1>
             </div>
-            <div class="flex items-center">
-              <div>
+            <div
+              class="flex flex-wrap items-center lg:space-x-[17px] xl:mt-0 lg:mt-5"
+            >
+              <div class="lg:my-0 my-4">
                 <img src="./assets/img/trends/trend-1.png" alt="" />
               </div>
-              <div class="flex items-center flex-wrap">
+              <div
+                class="flex items-end flex-wrap lg:space-x-2 border-b border-b-black pb-1"
+              >
                 <p class="font-bold text-2xl leading-[29.05px] text-black">
                   Rescatan vino de pitaya,
                 </p>
@@ -394,7 +438,163 @@
                 >
                   péchita y pétalos de rosa en Sonora.
                 </p>
-                <a href="#"></a>
+                <a href="#" class="text-sm font-semibold italic text-secondary">
+                  Leer mas...
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="w-full grid xl:grid-cols-2 grid-cols-1 gap-[33px]">
+            <div class="flex flex-wrap items-start">
+              <div class="w-full mb-7">
+                <img
+                  src="./assets/img/trends/trend-2.png"
+                  alt=""
+                  class="w-full object-cover"
+                />
+              </div>
+              <div class="w-full">
+                <h1
+                  class="font-extrabold text-[32px] leading-[38.73px] mb-[22px]"
+                >
+                  Lorem ipsum dolor sit amet, consectetu adipiscing elit, sed
+                  diam nonummy
+                </h1>
+                <p class="text-xl font-normal leading-[30px]">
+                  Etincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
+                  wisi enim ad minim veniam, quis nostrud exerci tation
+                  ullamcorper.
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-wrap items-start">
+              <div
+                class="w-full flex lg:flex-nowrap flex-wrap lg:space-x-5 items-start pb-[21px] mb-[21px] border-b-[0.5px] border-b-black justify-between"
+              >
+                <div class="lg:-mt-2 lg:w-auto w-full">
+                  <h2
+                    class="text-[55px] font-ebGaramond font-bold text-[#3636a5] italic leading-[63.24px]"
+                  >
+                    1
+                  </h2>
+                </div>
+                <div class="lg:w-auto w-full">
+                  <p class="text-2xl font-bold leading-[29.05px] lg:my-0 my-5">
+                    Monreal dice que el diferendo en la Cumbre de las Américas
+                    es un desaire a Joe Biden
+                  </p>
+                </div>
+                <div>
+                  <div class="w-[181px] h-[103px] bg-red-500">
+                    <img
+                      src="./assets/img/trends/trend-3.png"
+                      alt=""
+                      class="w-full"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="w-full flex lg:flex-nowrap flex-wrap lg:space-x-5 items-start pb-[21px] mb-[21px] border-b-[0.5px] border-b-black justify-between"
+              >
+                <div class="-mt-2 lg:w-auto w-full">
+                  <h2
+                    class="text-[55px] font-ebGaramond font-bold text-[#3636a5] italic leading-[63.24px]"
+                  >
+                    2
+                  </h2>
+                </div>
+                <div class="lg:w-auto w-full">
+                  <p class="text-2xl font-bold leading-[29.05px] lg:my-0 my-5">
+                    El PRI exige clausurar los tiraderos clandestinos en Morelos
+                  </p>
+                </div>
+                <div>
+                  <div class="w-[181px] h-[103px] bg-red-500">
+                    <img
+                      src="./assets/img/trends/trend-4.png"
+                      alt=""
+                      class="w-full"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="w-full flex lg:flex-nowrap flex-wrap lg:space-x-5 items-start pb-[21px] mb-[21px] border-b-[0.5px] border-b-black justify-between"
+              >
+                <div class="-mt-2 lg:w-auto w-full">
+                  <h2
+                    class="text-[55px] font-ebGaramond font-bold text-[#3636a5] italic leading-[63.24px]"
+                  >
+                    3
+                  </h2>
+                </div>
+                <div class="lg:w-auto w-full">
+                  <p class="text-2xl font-bold leading-[29.05px] lg:my-0 my-5">
+                    Socios del T-MEC ven lento el avance de la justicia laboral
+                    en México
+                  </p>
+                </div>
+                <div>
+                  <div class="w-[181px] h-[103px] bg-red-500">
+                    <img
+                      src="./assets/img/trends/trend-5.png"
+                      alt=""
+                      class="w-full"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="w-full flex lg:flex-nowrap flex-wrap lg:space-x-5 items-start pb-[21px] mb-[21px] border-b-[0.5px] border-b-black justify-between"
+              >
+                <div class="-mt-2 lg:w-auto w-full">
+                  <h2
+                    class="text-[55px] font-ebGaramond font-bold text-[#3636a5] italic leading-[63.24px]"
+                  >
+                    4
+                  </h2>
+                </div>
+                <div class="lg:w-auto w-full">
+                  <p class="text-2xl font-bold leading-[29.05px] lg:my-0 my-5">
+                    Monreal dice que el diferendo en la Cumbre de las Américas
+                    es un desaire a Joe Biden
+                  </p>
+                </div>
+                <div>
+                  <div class="w-[181px] h-[103px] bg-red-500">
+                    <img
+                      src="./assets/img/trends/trend-6.png"
+                      alt=""
+                      class="w-full"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="w-full flex lg:flex-nowrap flex-wrap lg:space-x-5 items-start pb-[21px] mb-[21px] justify-between"
+              >
+                <div class="-mt-2 lg:w-auto w-full">
+                  <h2
+                    class="text-[55px] font-ebGaramond font-bold text-[#3636a5] italic leading-[63.24px]"
+                  >
+                    5
+                  </h2>
+                </div>
+                <div class="lg:w-auto w-full">
+                  <p class="text-2xl font-bold leading-[29.05px] lg:my-0 my-5">
+                    El PRI exige clausurar los tiraderos clandestinos en Morelos
+                  </p>
+                </div>
+                <div>
+                  <div class="w-[181px] h-[103px] bg-red-500">
+                    <img
+                      src="./assets/img/trends/trend-7.png"
+                      alt=""
+                      class="w-full"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -402,5 +602,875 @@
       </div>
     </section>
     <!-- Trends section ends -->
+
+    <!-- Another ad section -->
+    <section class="md:mb-[77px] mb-10">
+      <div class="xl:container mx-auto 2xl:px-0 md:px-6 px-4">
+        <div class="flex flex-wrap">
+          <div class="w-full">
+            <img
+              src="./assets/img/misc/schneider.png"
+              alt=""
+              class="mx-auto md:w-auto w-full"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Another ad section ends -->
+
+    <!-- Deportes section -->
+    <section class="lg:min-h-[760px] h-full">
+      <div class="grid lg:grid-cols-2 grid-cols-1">
+        <div
+          class="xl:h-[760px] bg-[#7878e8] xl:pl-[76px] py-[36px] md:pr-10 lg:pl-[50px] md:px-10 px-6"
+        >
+          <div class="w-full">
+            <h1 class="text-white font-alef font-bold text-[40px] uppercase">
+              deportes
+            </h1>
+          </div>
+          <div class="w-full md:h-[370px] h-[250px] my-5">
+            <iframe
+              src="https://www.youtube.com/embed/Kf9cIZcEJsg"
+              title="Match Highlights - Portugal 6-1 Switzerland | FIFA World Cup Qatar 2022"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              class="h-full w-full"
+            ></iframe>
+          </div>
+          <div class="w-full mb-6">
+            <h2
+              class="text-white font-extrabold xl:text-5xl text-3xl xl:leading-[58.09px]"
+            >
+              Lorem ipsum dolor sit amet consectet
+            </h2>
+          </div>
+          <div class="w-full">
+            <p class="text-white font-medium xl:text-[32px] text-2xl">
+              Etincidunt ut laoreet dolore magna
+            </p>
+          </div>
+        </div>
+        <div
+          class="xl:h-[760px] deportes-bg flex items-center justify-center xl:px-0 px-6 xl:py-0 py-6"
+        >
+          <div class="md:w-[547px] bg-[rgba(0,0,115,0.77)] md:p-6 p-4">
+            <div class="flex flex-wrap md:pl-8 mb-10">
+              <div class="w-full flex items-end space-x-4">
+                <div class="-mb-3">
+                  <h1
+                    class="text-secondary text-xl font-extrabold leading-[38.73px] uppercase"
+                  >
+                    reporte especial
+                  </h1>
+                </div>
+                <div class="flex-1 h-0.5 bg-white"></div>
+              </div>
+              <div class="w-full my-3">
+                <p
+                  class="md:text-[32px] text-2xl text-white font-extrabold md:leading-[38.73px]"
+                >
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+                </p>
+              </div>
+              <div>
+                <p class="text-white font-extrabold text-xl leading-[24.2px]">
+                  Sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                  magna
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-wrap">
+              <div
+                class="w-full flex items-start space-x-3 pb-[11px] border-b-2 border-b-white mb-4"
+              >
+                <div>
+                  <div>
+                    <img src="./assets/img/icons/arrow-right-icon.svg" alt="" />
+                  </div>
+                </div>
+                <div class="flex-1">
+                  <p class="sm:text-xl text-lg text-white font-extrabold">
+                    Taliquam erat volutpat.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="w-full flex items-start space-x-3 pb-[11px] border-b-2 border-b-white mb-4"
+              >
+                <div>
+                  <div>
+                    <img src="./assets/img/icons/arrow-right-icon.svg" alt="" />
+                  </div>
+                </div>
+                <div class="flex-1">
+                  <p class="sm:text-xl text-lg text-white font-extrabold">
+                    Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                    ullamcorper
+                  </p>
+                </div>
+              </div>
+              <div
+                class="w-full flex items-start space-x-3 pb-[11px] border-b-2 border-b-white mb-4"
+              >
+                <div>
+                  <div>
+                    <img src="./assets/img/icons/arrow-right-icon.svg" alt="" />
+                  </div>
+                </div>
+                <div class="flex-1">
+                  <p class="sm:text-xl text-lg text-white font-extrabold">
+                    Esuscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="w-full flex items-start space-x-3 pb-[11px] border-b-2 border-b-white mb-4"
+              >
+                <div>
+                  <div>
+                    <img src="./assets/img/icons/arrow-right-icon.svg" alt="" />
+                  </div>
+                </div>
+                <div class="flex-1">
+                  <p class="sm:text-xl text-lg text-white font-extrabold">
+                    Duis autem vel eum iriure dolor in hendrerit in vulputate
+                    velit esse molestie
+                  </p>
+                </div>
+              </div>
+              <div class="w-full flex items-start space-x-3 pb-[11px] mb-4">
+                <div>
+                  <div>
+                    <img src="./assets/img/icons/arrow-right-icon.svg" alt="" />
+                  </div>
+                </div>
+                <div class="flex-1">
+                  <p class="sm:text-xl text-lg text-white font-extrabold">
+                    Econsequat, vel illum dolore eu feugiat nulla facilisis at
+                    vero eros et accumsan
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Deportes section ends -->
+
+    <!-- Columns section -->
+    <section class="md:mb-[115px] mb-16">
+      <div
+        class="xl:container mx-auto xl:px-0 md:px-6 px-4 pt-[66px] mt-[31px] md:pb-[70px] pb-10 border-b-2 border-b-black"
+      >
+        <div
+          class="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-y-10"
+        >
+          <div class="flex flex-wrap">
+            <div class="w-full lg:mb-5 md:pr-[17px]">
+              <h1
+                class="font-alef font-bold text-[32px] text-primary uppercase"
+              >
+                negocios
+              </h1>
+            </div>
+            <div
+              class="w-full flex flex-wrap md:pr-[17px] md:border-r-[0.5px] md:border-r-black"
+            >
+              <div class="w-full border-t-[9px] border-t-secondary">
+                <img
+                  src="./assets/img/main-news-imgs/news-1.png"
+                  alt=""
+                  class="w-full"
+                />
+              </div>
+              <div class="w-full bg-light-lighter-gray py-5 px-4 mb-[22px]">
+                <p
+                  class="text-black font-bold xl:text-2xl lg:text-xl text-2xl mb-3 leading-[29.05px]"
+                >
+                  Socios del T-MEC ven lenta la justicia laboral en México
+                </p>
+                <p class="text-black font-normal text-xl leading-[28px]">
+                  La legitimidad es parte de un compromiso incluso de carácter
+                  internacional.
+                </p>
+              </div>
+              <div
+                class="w-full pb-[21px] border-b-[0.5px] mb-5 border-b-black"
+              >
+                <p class="text-black font-medium leading-[24.2px] text-xl">
+                  Desde tu celular puedes adoptar un árbol en Sonora
+                </p>
+              </div>
+              <div
+                class="w-full pb-[21px] border-b-[0.5px] mb-5 border-b-black"
+              >
+                <p class="text-black font-medium leading-[24.2px] text-xl">
+                  Las tortillas de agua son el ícono culinario de Sonora
+                </p>
+              </div>
+              <div
+                class="w-full pb-[21px] border-b-[0.5px] mb-5 border-b-black"
+              >
+                <p class="text-black font-medium leading-[24.2px] text-xl">
+                  Desde tu celular puedes adoptar un árbol
+                </p>
+              </div>
+              <div class="w-full pb-[21px] mb-5">
+                <p class="text-black font-medium leading-[24.2px] text-xl">
+                  Desde tu celular puedes adoptar un árbol en Sonora
+                </p>
+              </div>
+              <div class="w-full flex justify-end">
+                <a
+                  href="#"
+                  class="text-secondary text-[17px] font-semibold leading-[25px] italic"
+                >
+                  Ver Más...
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-wrap">
+            <div class="w-full mb-5 lg:px-[17px] md:pl-[17px] pl-0">
+              <h1
+                class="font-alef font-bold text-[32px] text-primary uppercase"
+              >
+                POLÍTICA
+              </h1>
+            </div>
+            <div
+              class="w-full flex flex-wrap lg:px-[17px] md:pl-[17px] pl-0 lg:border-r-[0.5px] lg:border-r-black"
+            >
+              <div class="w-full border-t-[9px] border-t-secondary">
+                <img
+                  src="./assets/img/main-news-imgs/news-2.png"
+                  alt=""
+                  class="w-full"
+                />
+              </div>
+              <div class="w-full bg-light-lighter-gray py-5 px-4 mb-[22px]">
+                <p
+                  class="text-black font-bold xl:text-2xl lg:text-xl text-2xl mb-3 leading-[29.05px]"
+                >
+                  Socios del T-MEC ven lenta la justicia laboral en México
+                </p>
+                <p class="text-black font-normal text-xl leading-[28px]">
+                  La legitimidad es parte de un compromiso incluso de carácter
+                  internacional.
+                </p>
+              </div>
+              <div
+                class="w-full pb-[21px] border-b-[0.5px] mb-5 border-b-black"
+              >
+                <p class="text-black font-medium leading-[24.2px] text-xl">
+                  Desde tu celular puedes adoptar un árbol en Sonora
+                </p>
+              </div>
+              <div
+                class="w-full pb-[21px] border-b-[0.5px] mb-5 border-b-black"
+              >
+                <p class="text-black font-medium leading-[24.2px] text-xl">
+                  Las tortillas de agua son el ícono culinario de Sonora
+                </p>
+              </div>
+              <div
+                class="w-full pb-[21px] border-b-[0.5px] mb-5 border-b-black"
+              >
+                <p class="text-black font-medium leading-[24.2px] text-xl">
+                  Desde tu celular puedes adoptar un árbol
+                </p>
+              </div>
+              <div class="w-full pb-[21px] mb-5">
+                <p class="text-black font-medium leading-[24.2px] text-xl">
+                  Desde tu celular puedes adoptar un árbol en Sonora
+                </p>
+              </div>
+              <div class="w-full flex justify-end">
+                <a
+                  href="#"
+                  class="text-secondary text-[17px] font-semibold leading-[25px] italic"
+                >
+                  Ver Más...
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-wrap">
+            <div class="w-full mb-5 lg:px-[17px] md:pr-[17px] pr-0">
+              <h1
+                class="font-alef font-bold text-[32px] text-primary uppercase"
+              >
+                estados
+              </h1>
+            </div>
+            <div
+              class="w-full flex flex-wrap lg:px-[17px] md:pr-[17px] pr-0 xl:border-r-[0.5px] xl:border-r-black"
+            >
+              <div class="w-full border-t-[9px] border-t-secondary">
+                <img
+                  src="./assets/img/main-news-imgs/news-3.png"
+                  alt=""
+                  class="w-full"
+                />
+              </div>
+              <div class="w-full bg-light-lighter-gray py-5 px-4 mb-[22px]">
+                <p
+                  class="text-black font-bold xl:text-2xl lg:text-xl text-2xl mb-3 leading-[29.05px]"
+                >
+                  Socios del T-MEC ven lenta la justicia laboral en México
+                </p>
+                <p class="text-black font-normal text-xl leading-[28px]">
+                  La legitimidad es parte de un compromiso incluso de carácter
+                  internacional.
+                </p>
+              </div>
+              <div
+                class="w-full pb-[21px] border-b-[0.5px] mb-5 border-b-black"
+              >
+                <p class="text-black font-medium leading-[24.2px] text-xl">
+                  Desde tu celular puedes adoptar un árbol en Sonora
+                </p>
+              </div>
+              <div
+                class="w-full pb-[21px] border-b-[0.5px] mb-5 border-b-black"
+              >
+                <p class="text-black font-medium leading-[24.2px] text-xl">
+                  Las tortillas de agua son el ícono culinario de Sonora
+                </p>
+              </div>
+              <div
+                class="w-full pb-[21px] border-b-[0.5px] mb-5 border-b-black"
+              >
+                <p class="text-black font-medium leading-[24.2px] text-xl">
+                  Desde tu celular puedes adoptar un árbol
+                </p>
+              </div>
+              <div class="w-full pb-[21px] mb-5">
+                <p class="text-black font-medium leading-[24.2px] text-xl">
+                  Desde tu celular puedes adoptar un árbol en Sonora
+                </p>
+              </div>
+              <div class="w-full flex justify-end">
+                <a
+                  href="#"
+                  class="text-secondary text-[17px] font-semibold leading-[25px] italic"
+                >
+                  Ver Más...
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-wrap">
+            <div class="w-full mb-5 xl:pl-[17px] lg:pl-0 md:pl-[17px]">
+              <h1
+                class="font-alef font-bold text-[32px] text-primary uppercase"
+              >
+                finanzas
+              </h1>
+            </div>
+            <div
+              class="w-full flex flex-wrap xl:pl-[17px] lg:pl-0 md:pl-[17px]"
+            >
+              <div class="w-full border-t-[9px] border-t-secondary">
+                <img
+                  src="./assets/img/main-news-imgs/news-4.png"
+                  alt=""
+                  class="w-full"
+                />
+              </div>
+              <div class="w-full bg-light-lighter-gray py-5 px-4 mb-[22px]">
+                <p
+                  class="text-black font-bold xl:text-2xl lg:text-xl text-2xl mb-3 leading-[29.05px]"
+                >
+                  Socios del T-MEC ven lenta la justicia laboral en México
+                </p>
+                <p class="text-black font-normal text-xl leading-[28px]">
+                  La legitimidad es parte de un compromiso incluso de carácter
+                  internacional.
+                </p>
+              </div>
+              <div
+                class="w-full pb-[21px] border-b-[0.5px] mb-5 border-b-black"
+              >
+                <p class="text-black font-medium leading-[24.2px] text-xl">
+                  Desde tu celular puedes adoptar un árbol en Sonora
+                </p>
+              </div>
+              <div
+                class="w-full pb-[21px] border-b-[0.5px] mb-5 border-b-black"
+              >
+                <p class="text-black font-medium leading-[24.2px] text-xl">
+                  Las tortillas de agua son el ícono culinario de Sonora
+                </p>
+              </div>
+              <div
+                class="w-full pb-[21px] border-b-[0.5px] mb-5 border-b-black"
+              >
+                <p class="text-black font-medium leading-[24.2px] text-xl">
+                  Desde tu celular puedes adoptar un árbol
+                </p>
+              </div>
+              <div class="w-full pb-[21px] mb-5">
+                <p class="text-black font-medium leading-[24.2px] text-xl">
+                  Desde tu celular puedes adoptar un árbol en Sonora
+                </p>
+              </div>
+              <div class="w-full flex justify-end">
+                <a
+                  href="#"
+                  class="text-secondary text-[17px] font-semibold leading-[25px] italic"
+                >
+                  Ver Más...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Columns section ends -->
+
+    <!-- Especial section -->
+    <section class="md:mb-[75px] mb-10">
+      <div class="xl:container mx-auto xl:px-0 md:px-6 px-4">
+        <div
+          class="lg:min-h-[526px] bg-light-lighter-gray lg:px-[69px] lg:py-[55px] px-6 py-10 relative"
+        >
+          <div class="xl:block hidden absolute right-8 bottom-0 z-20">
+            <img src="./assets/img/misc/elon-musk.png" alt="" />
+          </div>
+          <div class="absolute left-0 right-0 z-20 bottom-0">
+            <img src="./assets/img/icons/line.svg" alt="" />
+          </div>
+          <div class="flex flex-wrap">
+            <div class="w-full flex items-center space-x-[10px] mb-[32px]">
+              <div>
+                <p class="text-black font-bold tracking-[0.3rem] uppercase">
+                  especial
+                </p>
+              </div>
+              <div
+                class="w-[119.02px] h-[27.86px] bg-secondary flex items-center justify-center"
+              >
+                <p class="text-white font-bold uppercase">negocios</p>
+              </div>
+            </div>
+            <div class="w-full pb-1.5 border-b-2 border-b-black mb-10">
+              <h2 class="lg:text-5xl text-3xl font-extrabold">
+                Lorem ipsum dolor sit amet
+              </h2>
+            </div>
+            <div
+              class="xl:w-1/2 grid md:grid-cols-2 grid-cols-1 gap-x-12 lg:gap-y-2 gap-y-10"
+            >
+              <div class="flex flex-wrap border-b-[0.5px] border-b-black pb-5">
+                <div class="w-full flex items-start space-x-2">
+                  <div>
+                    <div class="w-2 h-2 rounded-full mt-2 bg-secondary"></div>
+                  </div>
+                  <div>
+                    <p class="text-xl font-extrabold text-black">
+                      Ut wisi enimad minim
+                    </p>
+                  </div>
+                </div>
+                <div class="w-full">
+                  <p class="leading-[19px] text-black font-medium">
+                    Veniam quis nostrud exerci tation ullamcorper
+                  </p>
+                </div>
+              </div>
+              <div class="flex flex-wrap border-b-[0.5px] border-b-black pb-5">
+                <div class="w-full flex items-start space-x-2">
+                  <div>
+                    <div class="w-2 h-2 rounded-full mt-2 bg-secondary"></div>
+                  </div>
+                  <div>
+                    <p class="text-xl font-extrabold text-black">
+                      Esuscipit lobortis nislut
+                    </p>
+                  </div>
+                </div>
+                <div class="w-full">
+                  <p class="leading-[19px] text-black font-medium">
+                    Aliquip ex ea commodo del consequat.
+                  </p>
+                </div>
+              </div>
+              <div class="flex flex-wrap border-b-[0.5px] border-b-black pb-5">
+                <div class="w-full flex items-start space-x-2">
+                  <div>
+                    <div class="w-2 h-2 rounded-full mt-2 bg-secondary"></div>
+                  </div>
+                  <div>
+                    <p class="text-xl font-extrabold text-black">
+                      Esuscipit lobortis
+                    </p>
+                  </div>
+                </div>
+                <div class="w-full">
+                  <p class="leading-[19px] text-black font-medium">
+                    Enisl ut aliquip ex ea commodo consequat.
+                  </p>
+                </div>
+              </div>
+              <div class="flex flex-wrap border-b-[0.5px] border-b-black pb-5">
+                <div class="w-full flex items-start space-x-2">
+                  <div>
+                    <div class="w-2 h-2 rounded-full mt-2 bg-secondary"></div>
+                  </div>
+                  <div>
+                    <p class="text-xl font-extrabold text-black">
+                      Duis autem vel eumiriure
+                    </p>
+                  </div>
+                </div>
+                <div class="w-full">
+                  <p class="leading-[19px] text-black font-medium">
+                    Tylor in hendrerit in vulputate velit esse molestie
+                  </p>
+                </div>
+              </div>
+              <div class="flex flex-wrap border-b-[0.5px] border-b-black pb-5">
+                <div class="w-full flex items-start space-x-2">
+                  <div>
+                    <div class="w-2 h-2 rounded-full mt-2 bg-secondary"></div>
+                  </div>
+                  <div>
+                    <p class="text-xl font-extrabold text-black">
+                      Duis autem vel eum iriure
+                    </p>
+                  </div>
+                </div>
+                <div class="w-full">
+                  <p class="leading-[19px] text-black font-medium">
+                    Ydolor in hendrerit in vulputate velit esse molestie
+                  </p>
+                </div>
+              </div>
+              <div class="flex flex-wrap border-b-[0.5px] border-b-black pb-5">
+                <div class="w-full flex items-start space-x-2">
+                  <div>
+                    <div class="w-2 h-2 rounded-full mt-2 bg-secondary"></div>
+                  </div>
+                  <div>
+                    <p class="text-xl font-extrabold text-black">
+                      Econsequat veillum
+                    </p>
+                  </div>
+                </div>
+                <div class="w-full">
+                  <p class="leading-[19px] text-black font-medium">
+                    Tdolore eu feugiat nulla facilisis at vero eros et accumsan
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Especial section ends -->
+
+    <!-- Politica section -->
+    <section class="md:mb-[60px] mb-10">
+      <div
+        class="xl:container mx-auto xl:px-0 md:px-6 px-4 border-b border-b-black"
+      >
+        <div class="flex flex-wrap">
+          <div class="w-full mb-7">
+            <h1 class="text-primary text-[40px] font-alef font-bold">
+              POLÍTICA
+            </h1>
+          </div>
+          <div
+            class="w-full grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-y-10 lg:border-b lg:border-b-black mb-10"
+          >
+            <div class="md:pr-6 md:border-r md:border-r-black flex flex-wrap">
+              <div class="w-full mb-6">
+                <img
+                  src="./assets/img/main-news-imgs/news-3.png"
+                  alt=""
+                  class="w-full"
+                />
+              </div>
+              <div class="w-full">
+                <p class="text-[22px] font-bold leading-[26.63px] h-[133px]">
+                  Monreal dice que el diferendo en la Cumbre de las Américas es
+                  un desaire a Joe Biden
+                </p>
+              </div>
+            </div>
+            <div
+              class="lg:px-6 md:pl-6 lg:border-r lg:border-r-black flex flex-wrap"
+            >
+              <div class="w-full mb-6">
+                <img
+                  src="./assets/img/main-news-imgs/news-4.png"
+                  alt=""
+                  class="w-full"
+                />
+              </div>
+              <div class="w-full">
+                <p class="text-[22px] font-bold leading-[26.63px] h-[133px]">
+                  Monreal dice que el diferendo en la Cumbre de las Américas es
+                  un desaire a Joe Biden
+                </p>
+              </div>
+            </div>
+            <div
+              class="lg:px-6 md:pr-6 md:border-r md:border-r-black flex flex-wrap"
+            >
+              <div class="w-full mb-6">
+                <img
+                  src="./assets/img/main-news-imgs/news-1.png"
+                  alt=""
+                  class="w-full"
+                />
+              </div>
+              <div class="w-full">
+                <p class="text-[22px] font-bold leading-[26.63px] h-[133px]">
+                  Monreal dice que el diferendo en la Cumbre de las Américas es
+                  un desaire a Joe Biden
+                </p>
+              </div>
+            </div>
+            <div class="md:pl-6 flex flex-wrap">
+              <div class="w-full mb-6">
+                <img
+                  src="./assets/img/main-news-imgs/news-4.png"
+                  alt=""
+                  class="w-full"
+                />
+              </div>
+              <div class="w-full">
+                <p class="text-[22px] font-bold leading-[26.63px] h-[133px]">
+                  Monreal dice que el diferendo en la Cumbre de las Américas es
+                  un desaire a Joe Biden
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-full pb-[57px] grid md:grid-cols-2 grid-cols-1 gap-x-[55px] gap-y-10"
+          >
+            <div
+              class="flex flex-wrap items-center lg:space-x-5 md:space-x-0 sm:space-x-5 pb-[29px] md:border-b md:border-b-black"
+            >
+              <div class="lg:w-[149px] w-full mb-5 lg:mb-0">
+                <div>
+                  <img src="./assets/img/politica/politica-1.png" alt="" />
+                </div>
+              </div>
+              <div class="flex-1">
+                <p class="font-bold text-2xl text-black leading-[29.05px]">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                  diam nonummy.
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex flex-wrap items-center lg:space-x-5 md:space-x-0 sm:space-x-5 pb-[29px] md:border-b md:border-b-black"
+            >
+              <div class="lg:w-[149px] w-full mb-5 lg:mb-0">
+                <div>
+                  <img src="./assets/img/politica/politica-2.png" alt="" />
+                </div>
+              </div>
+              <div class="flex-1">
+                <p class="font-bold text-2xl text-black leading-[29.05px]">
+                  Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                  ullamcorper suscipit.
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex flex-wrap items-center lg:space-x-5 md:space-x-0 sm:space-x-5 pb-[29px]"
+            >
+              <div class="lg:w-[149px] w-full mb-5 lg:mb-0">
+                <div>
+                  <img src="./assets/img/politica/politica-3.png" alt="" />
+                </div>
+              </div>
+              <div class="flex-1">
+                <p class="font-bold text-2xl text-black leading-[29.05px]">
+                  Euismod tincidunt ut laoreet dolore magna aliquam erat
+                  volutpat.
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex flex-wrap items-center lg:space-x-5 md:space-x-0 sm:space-x-5 pb-[29px]"
+            >
+              <div class="lg:w-[149px] w-full mb-5 lg:mb-0">
+                <div>
+                  <img src="./assets/img/politica/politica-4.png" alt="" />
+                </div>
+              </div>
+              <div class="flex-1">
+                <p class="font-bold text-2xl text-black leading-[29.05px]">
+                  Lobortis nisl ut aliquip ex ea commodo consequat. Duis autem
+                  vel eum iriure.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Politica section ends -->
+
+    <!-- Opinion section -->
+    <section>
+      <div class="xl:container mx-auto xl:px-0 md:px-6 px-4">
+        <div class="flex flex-wrap">
+          <div class="w-full mb-[51px]">
+            <h1 class="text-primary font-bold text-alef text-[40px]">
+              LA OPINIÓN
+            </h1>
+          </div>
+          <div class="w-full grid lg:grid-cols-2 grid-cols-1 gap-[29px]">
+            <div
+              class="bg-[rgba(120,120,232,0.2)] rounded-[33px] flex flex-wrap md:p-[34px] p-5"
+            >
+              <div
+                class="w-full flex flex-wrap items-center sm:space-x-6 mb-10"
+              >
+                <div class="sm:mb-0 mb-5 sm:w-auto w-full">
+                  <div
+                    class="w-[140px] h-[140px] rounded-full border-[5px] border-[#3636a5]"
+                  >
+                    <img
+                      src="./assets/img/opinion/opinion-1.png"
+                      alt=""
+                      class="w-full h-full object-cover"
+                    />
+                  </div>
+                </div>
+                <div class="flex-1 flex flex-wrap">
+                  <div class="w-full pb-3 mb-3 border-b border-b-black">
+                    <h2
+                      class="text-secondary uppercase text-[35px] font-extrabold"
+                    >
+                      realpolitik
+                    </h2>
+                  </div>
+                  <div class="w-full flex items-center justify-between">
+                    <div>
+                      <p class="text-2xl font-alef text-black font-bold">
+                        Jacques Coste
+                      </p>
+                    </div>
+                    <div>
+                      <p class="italic uppercase font-medium">
+                        3 dic 2022
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="w-full">
+                <h2 class="text-[32px] font-extrabold leading-[38.73px] mb-8">
+                  Lorem ipsum dolor sit amet consecte
+                </h2>
+                <p class="text-xl leading-[33px] mb-5">
+                  Sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                  magna aliquam erat volutpat wisi enim ad minim veniam, quis
+                  nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                  aliquip ex ea commodo consequat...
+                </p>
+              </div>
+              <div class="w-full flex justify-end">
+                <a
+                  href="#"
+                  class="text-[13px] font-semibold text-secondary italic"
+                >
+                  Continuar leyendo...
+                </a>
+              </div>
+            </div>
+            <div
+              class="bg-light-lighter-gray rounded-[33px] flex flex-wrap md:p-[34px] p-5"
+            >
+              <div
+                class="w-full flex flex-wrap items-center sm:space-x-6 mb-10"
+              >
+                <div class="sm:mb-0 mb-5 sm:w-auto w-full">
+                  <div
+                    class="w-[140px] h-[140px] rounded-full border-[5px] border-[#3636a5]"
+                  >
+                    <img
+                      src="./assets/img/opinion/opinion-2.png"
+                      alt=""
+                      class="w-full h-full object-cover"
+                    />
+                  </div>
+                </div>
+                <div class="flex-1 flex flex-wrap">
+                  <div class="w-full pb-3 mb-3 border-b border-b-black">
+                    <h2
+                      class="text-secondary uppercase text-[35px] font-extrabold"
+                    >
+                      los pozos
+                    </h2>
+                  </div>
+                  <div class="w-full flex items-center justify-between">
+                    <div>
+                      <p class="text-2xl font-alef text-black font-bold">
+                        Carlos Pozos
+                      </p>
+                    </div>
+                    <div>
+                      <p class="italic uppercase font-medium">
+                        2 dic 2022
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="w-full">
+                <h2 class="text-[32px] font-extrabold leading-[38.73px] mb-8">
+                  Lorem ipsum dolor sit amet consecte de la ifrets instrui
+                </h2>
+                <p class="text-xl leading-[33px] mb-5">
+                  Sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                  magna aliquam erat volutpat wisi enim ad minim veniam, quis
+                  nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                  aliquip ex ea commodo consequat...
+                </p>
+              </div>
+              <div class="w-full flex justify-end">
+                <a
+                  href="#"
+                  class="text-[13px] font-semibold text-secondary italic"
+                >
+                  Continuar leyendo...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Opinion section ends -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.3.1/swiper-bundle.min.js"></script>
+    <script type="text/javascript">
+      var swiper = new Swiper('.headline-swiper', {
+        slidesPerView: 1,
+        breakpoints: {
+          1024: {
+            slidesPerView: 3,
+          },
+          768: {
+            slidesPerView: 3,
+          },
+        },
+      })
+    </script>
   </body>
 </html>

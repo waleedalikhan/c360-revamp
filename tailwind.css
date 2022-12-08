@@ -5,3 +5,19 @@
 body {
   font-family: 'Inter', sans-serif;
 }
+
+.deportes-bg {
+  background: url('/assets/img/deportes/deportes-1.png') center/cover no-repeat;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
